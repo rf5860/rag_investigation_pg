@@ -15,6 +15,8 @@ This repository is just some messing around / simple investigation into using Po
     * [Prerequisites](#prerequisites)
     * [Set-Up](#set-up)
   * [Useful Resources / Links](#useful-resources--links)
+    * [RAG](#rag)
+    * [Using Postgres as a vector database for RAG](#using-postgres-as-a-vector-database-for-rag-1)
 <!-- TOC -->
 
 ## Background
