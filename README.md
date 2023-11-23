@@ -39,7 +39,7 @@ A vector database allows for complex data to be efficiently queried by storing d
 
 #### Using Postgres as a vector database for RAG
 
-Which brings us to this repository. This is basically a scratchpad for investigating using Postgres via pgvector as a vector database for RAG (Which seems like a [pretty widely explored concept](#useful-resources--links)).
+Which brings us to this repository. This is basically a scratchpad for investigating using Postgres via pgvector as a vector database for RAG (Which seems like a [pretty widely explored concept](#using-postgres-as-a-vector-database-for-rag-1)).
 
 #### OK, But Why Do You Have Kotlin & Repo Here
 
@@ -59,6 +59,12 @@ Which brings us to this repository. This is basically a scratchpad for investiga
 5. Query the data: `SELECT * FROM items ORDER BY embedding <-> '[3, 1, 2]' LIMIT 5;`
 
 ## Useful Resources / Links
+
+### RAG
+
+- [RAG Documentation on HuggingFace](https://huggingface.co/docs/transformers/model_doc/rag)
+
+### Using Postgres as a vector database for RAG
 
 - [Turning PostgreSQL Into A Vector Store](https://www.i-programmer.info/news/84-database/16631-turn-postgresql-into-a-vector-store.html)
 - [Why you don't need a specialist Vector Database](https://bionic-gpt.com/blog/you-dont-need-a-vector-database/)
