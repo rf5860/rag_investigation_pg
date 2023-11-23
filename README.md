@@ -2,6 +2,21 @@
 
 This repository is just some messing around / simple investigation into using Postgres as a vector database for RAG.
 
+<!-- TOC -->
+* [RAG Using Postgres Vector Extension](#rag-using-postgres-vector-extension)
+  * [Background](#background)
+      * [What is RAG?](#what-is-rag)
+      * [What are popular RAG options?](#what-are-popular-rag-options)
+      * [What is a vector database?](#what-is-a-vector-database)
+      * [What are some popular vector databases?](#what-are-some-popular-vector-databases)
+      * [Using Postgres as a vector database for RAG](#using-postgres-as-a-vector-database-for-rag)
+      * [OK, But Why Do You Have Kotlin & Repo Here](#ok-but-why-do-you-have-kotlin--repo-here)
+  * [Setup](#setup)
+    * [Prerequisites](#prerequisites)
+    * [Set-Up](#set-up)
+  * [Useful Resources / Links](#useful-resources--links)
+<!-- TOC -->
+
 ## Background
 
 #### What is RAG?
@@ -13,8 +28,22 @@ Retrieval-Augmented Generation (RAG) is a hybrid approach that combines informat
 A bunch of popular options exist for getting started with basic RAG systems. Probably one of the most common is [LangChain](https://www.langchain.com/) for low-level abstractions, backed by a vector database such as [Chroma](https://www.trychroma.com/).
 
 #### What is a vector database?
+
+A vector database allows for complex data to be efficiently queried by storing data as vectors. This allows for fast similarity searches, which is useful for RAG systems.
+
 #### What are some popular vector databases?
+
+- [facebookresearch/faiss: A library for efficient similarity search and clustering of dense vectors.](https://github.com/facebookresearch/faiss)
+- [Vector Database for Vector Search | Pinecone](https://www.pinecone.io/)
+- [Elasticsearch vector search - highly relevant, lightning fast search | Elastic](https://www.elastic.co/enterprise-search/vector-search)
+
 #### Using Postgres as a vector database for RAG
+
+Which brings us to this repository. This is basically a scratchpad for investigating using Postgres via pgvector as a vector database for RAG (Which seems like a [pretty widely explored concept](#useful-resources--links)).
+
+#### OK, But Why Do You Have Kotlin & Repo Here
+
+` "¯\_(ツ)_/¯ "`
 
 ## Setup
 ### Prerequisites
